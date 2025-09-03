@@ -1,0 +1,21 @@
+[versions]
+agp = "8.13.0"
+coreKtx = "1.17.0"
+dexkit = "2.0.6"
+koin = "4.1.0"
+kotlin = "2.2.10"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+dexkit = { module = "org.luckypray:dexkit", version.ref = "dexkit" }
+koin-android = { module = "io.insert-koin:koin-android" }
+koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
+koin-core-coroutines = { module = "io.insert-koin:koin-core-coroutines" }
+xposed = { module = "de.robv.android.xposed:api", version = "82" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+lsplugin-jgit = { id = "org.lsposed.lsplugin.jgit", version = "1.1" }
+lsplugin-resopt = { id = "org.lsposed.lsplugin.resopt", version = "1.6" }
+lsplugin-lsparanoid = { id = "org.lsposed.lsparanoid", version = "0.6.0" }

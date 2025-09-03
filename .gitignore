@@ -1,0 +1,88 @@
+# .gitignore for Android (Kotlin) Xposed module project
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle caches and local files
+**/.gradle/
+local.properties
+keystore.properties
+*.properties
+
+# Keystore files (local secrets)
+*.jks
+*.keystore
+*.pem
+
+# IDE files (Android Studio / IntelliJ)
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android Studio specific
+captures/
+.externalNativeBuild/
+.cxx/
+app/kspCaches/
+**/kspCaches/
+
+# Build outputs
+*.apk
+*.ap_
+*.aab
+*.aar
+*.jar
+
+# Native / compiled objects
+**/obj/
+**/*.so
+**/*.o
+**/*.a
+**/*.lib
+**/*.dll
+
+# Generated and intermediate files
+gen/
+buildSrc/.gradle/
+**/intermediates/
+**/outputs/
+**/tmp/
+**/out/
+
+# ProGuard / R8 mapping outputs (usually generated during release builds)
+**/outputs/mapping/
+**/outputs/mapping/**
+
+# Test / coverage
+*.ec
+coverage/
+jacoco/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Misc
+node_modules/
+.vscode/
+
+# Keep these project files tracked (uncomment if you need to ignore them):
+# mapping.txt
+# seeds.txt
+# dictionary.txt
+# unused.txt
+
+.kotlin
