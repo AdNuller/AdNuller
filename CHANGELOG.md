@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/AdNuller/AdNuller/compare/v1.0.0...v1.0.1) (2025-09-03)
+
+
+### Miscellaneous
+
+* add Gradle wrapper configuration ([0add72b](https://github.com/AdNuller/AdNuller/commit/0add72b052eb235bbc946ffaee446c54d6b56db0))
+
 ## 1.0.0 (2025-09-03)
 
 
